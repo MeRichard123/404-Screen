@@ -45,6 +45,6 @@ body button:hover {
 }
 @media screen and (max-width: 470px){
   body h1{
-    font-size: -1em;
+    font-size: 20px;
   }
 }
