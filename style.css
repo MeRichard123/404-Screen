@@ -33,8 +33,16 @@ body button {
 body button:hover {
   background-color: gray;
 }
-
+@media screen and (max-width: 1024px){
+  body h1{
+    font-size: 5em;
+  }
+}
 @media screen and (max-width: 710px) {
   body button {
     transform: translateY(50%);
   }
+  body h1{
+    font-size: 2em;
+  }
+
