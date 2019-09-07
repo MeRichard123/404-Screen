@@ -37,9 +37,4 @@ body button:hover {
 @media screen and (max-width: 710px) {
   body button {
     transform: translateY(50%);
-    font-size: 1em;
   }
-  body h1 {
-    font-size: 1em;
-  }
-}
