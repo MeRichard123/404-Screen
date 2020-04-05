@@ -9,17 +9,28 @@
       href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap"
       rel="stylesheet"
     />
-    <title>Computer Science Revision guide</title>
+    <title>404 Page Error</title>
   </head>
   <body>
-    <h1>Computer Science Revision Guide</h1>
-    <form
-      method="get"
-      action="https://www.notion.so/csrevisionguide/GCSE-Computer-Science-Revision-Guide-AQA-eb1c3652ba824967a58d07a8b7fdebc9"
-    >
-      <button type="submit" style="font-family: 'Poppins', 'sans-serif';">
-        Go to Revision Guide
-      </button>
-    </form>
+    <div id="container">
+      <div class="content">
+        <h2>404</h2>
+        <h4>Oops! Page not found</h4>
+        <p>
+          The page you were looking for, doesn't exist. Looks like it has been
+          moved here:
+        </p>
+        <a href="https://www.richardme123.codes/">New Location!</a>
+      </div>
+    </div>
   </body>
+  <script type="text/javascript">
+    const container = document.getElementById("container");
+    window.onmousemove = (e) => {
+      let x = -e.clientX / 5;
+      let y = -e.clientY / 5;
+      container.style.backgroundPositionX = x + "px";
+      container.style.backgroundPositionY = y + "px";
+    };
+  </script>
 </html>
